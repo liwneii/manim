@@ -85,6 +85,13 @@ class SquareToCircle(Scene):
         self.play(FadeOut(square))
 
 
+class FirstScene(Scene):
+    def construct(self):
+        text = TextMobject("text")
+        self.add(text)
+
+
+
 class WarpSquare(Scene):
     def construct(self):
         square = Square()
